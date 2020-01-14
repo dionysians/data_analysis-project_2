@@ -42,7 +42,7 @@ def get_filters():
             print('Please enter a valid day of week.\n')
 
     print('-'*40)
-    return city, month, day
+    return city.lower(), month.lower(), day.lower()
 
 
 def load_data(city, month, day):
